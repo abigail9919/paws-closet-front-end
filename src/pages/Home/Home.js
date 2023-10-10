@@ -1,7 +1,6 @@
 // The below imports are for the Style Sheet and various Components
 import './home.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import Nav from '../components/Nav/Nav';
+import Header from '../components/Header/header';
 import Socials from '../components/Socials/Socials';
 import Footer from '../components/Footer/Footer';
 import LocationHours from '../components/LocationHours/LocationHours';
@@ -15,8 +14,7 @@ import jaguar from '../../images/stuffed-jaguar.jpg';
 function Home() {
     return (
         <div>
-            {<SearchBar />}
-            {<Nav />}
+            {<Header />}
             <img className = "jaguar-image" src={jaguar} alt="Stuffed Jaguar"/>
 
             <article>

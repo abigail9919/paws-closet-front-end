@@ -1,6 +1,4 @@
 import './Forms.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import Nav from '../components/Nav/Nav';
 import AsideNav from '../components/AsideNav/AsideNav';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
@@ -78,8 +76,6 @@ function Forms() {
 
     return (
         <div className='forms-home'>
-            {<SearchBar />}
-            {<Nav />}
             <article className='forms-article'>
             {<AsideNav />}
 
