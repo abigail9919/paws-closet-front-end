@@ -1,6 +1,4 @@
 import './Search.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import Nav from '../components/Nav/Nav';
 import AsideNav from '../components/AsideNav/AsideNav';
 import LocationHours from '../components/LocationHours/LocationHours';
 import Socials from '../components/Socials/Socials';
@@ -38,8 +36,6 @@ function Search() {
 
     return (
         <div className = "search-page-wrapper">
-            {<SearchBar />}
-            {<Nav />}
             <article className="searchArticle">
             {<AsideNav />}
             {<LocationHours />}

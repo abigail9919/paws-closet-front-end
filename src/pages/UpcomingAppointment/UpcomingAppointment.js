@@ -1,5 +1,3 @@
-import SearchBar from '../components/SearchBar/SearchBar';
-import Nav from '../components/Nav/Nav';
 import AsideNav from '../components/AsideNav/AsideNav';
 import LocationHours from '../components/LocationHours/LocationHours';
 import Socials from '../components/Socials/Socials';
@@ -173,8 +171,6 @@ function UpcomingAppointment() {
     
     return (
         <div >
-            {<SearchBar />}
-            {<Nav />}
             <article>
             {<AsideNav />}
             {<LocationHours />}
