@@ -1,13 +1,7 @@
 import * as React from 'react';
-import '../../rivet-styles/rivet.min.css'; 
-// import { Alert } from 'rivet-react';
-// The below imports are for the Style Sheet and various Components
-import './home.css';
+import '../../rivet-styles/rivet.min.css';
 import Header from '../components/Header/header';
-import Socials from '../components/Socials/Socials';
 import Footer from '../components/Footer/Footer';
-import LocationHours from '../components/LocationHours/LocationHours';
-import AsideNav from '../components/AsideNav/AsideNav';
 import Button from '../components/Button/Button';
 
 
@@ -17,12 +11,9 @@ function Home() {
     return (
         <div>
             {<Header />}
-            {/* <img className = "jaguar-image" src={jaguar} alt="Stuffed Jaguar"/> */}
 
             <article>
 
-            {<AsideNav />}
-            {<LocationHours />}
 
                 <div className="word-content">
                 <div className = "breadcrumbs">
@@ -61,7 +52,6 @@ function Home() {
                 <h3>Support Paws' Pantry Today</h3>
                 <button>GIVE NOW</button>
             </div>
-            {<Socials />}
             {<Footer />}
         </div>
     );
