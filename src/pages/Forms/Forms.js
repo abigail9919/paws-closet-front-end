@@ -1,5 +1,4 @@
-import './Forms.css';
-import AsideNav from '../components/AsideNav/AsideNav';
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -77,7 +76,6 @@ function Forms() {
     return (
         <div className='forms-home'>
             <article className='forms-article'>
-            {<AsideNav />}
 
                 <form id="paws-form" onSubmit={handleSubmit}>
                     <header><h1>Paws' Pantry Intake Form</h1></header>
