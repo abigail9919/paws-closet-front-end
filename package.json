@@ -14,6 +14,7 @@
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
     "rivet-core": "^2.5.2",
+    "rivet-react": "^1.10.0",
     "sass": "^1.69.2",
     "web-vitals": "^2.1.4"
   },
