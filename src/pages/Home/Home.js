@@ -1,23 +1,23 @@
+import * as React from 'react';
+import '../../rivet-styles/rivet.min.css'; 
+// import { Alert } from 'rivet-react';
 // The below imports are for the Style Sheet and various Components
 import './home.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import Nav from '../components/Nav/Nav';
+import Header from '../components/Header/header';
 import Socials from '../components/Socials/Socials';
 import Footer from '../components/Footer/Footer';
 import LocationHours from '../components/LocationHours/LocationHours';
 import AsideNav from '../components/AsideNav/AsideNav';
 import Button from '../components/Button/Button';
 
-// These imports are for images
-import jaguar from '../../images/stuffed-jaguar.jpg';
 
+{/* <Alert variant="info">A very important message for you!</Alert> */}
 
 function Home() {
     return (
         <div>
-            {<SearchBar />}
-            {<Nav />}
-            <img className = "jaguar-image" src={jaguar} alt="Stuffed Jaguar"/>
+            {<Header />}
+            {/* <img className = "jaguar-image" src={jaguar} alt="Stuffed Jaguar"/> */}
 
             <article>
 
