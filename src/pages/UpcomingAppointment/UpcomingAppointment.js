@@ -1,9 +1,7 @@
-import AsideNav from '../components/AsideNav/AsideNav';
-import LocationHours from '../components/LocationHours/LocationHours';
-import Socials from '../components/Socials/Socials';
+
+
 import Footer from '../components/Footer/Footer';
 import Button from '../components/Button/Button';
-import '../UpcomingAppointment/Accordion.css'; 
 import React, { useState, useEffect } from "react";
 import { Routes, Route, useParams, useHref } from 'react-router-dom';
 import axios from "axios";
@@ -172,8 +170,6 @@ function UpcomingAppointment() {
     return (
         <div >
             <article>
-            {<AsideNav />}
-            {<LocationHours />}
 
                 <div className='apptContent'>
                     <h1>Upcoming Appointment This week</h1>
@@ -315,7 +311,6 @@ function UpcomingAppointment() {
                     </div>
                 </div>
             </article>
-            {<Socials />}
             {<Footer />}
 
 

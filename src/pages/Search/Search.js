@@ -1,7 +1,3 @@
-import './Search.css';
-import AsideNav from '../components/AsideNav/AsideNav';
-import LocationHours from '../components/LocationHours/LocationHours';
-import Socials from '../components/Socials/Socials';
 import Footer from '../components/Footer/Footer';
 import Button from '../components/Button/Button';
 import React, { useState, useEffect } from "react";
@@ -37,8 +33,6 @@ function Search() {
     return (
         <div className = "search-page-wrapper">
             <article className="searchArticle">
-            {<AsideNav />}
-            {<LocationHours />}
                 <div className = "breadcrumbs">
                     <a href="#">Home</a> / 
                     <a href="#">Advocacy & Resources</a> /
@@ -65,7 +59,6 @@ function Search() {
                     {<Button title="Start New Application" location="/Forms"/>}
                 </form>
             </article>
-            {<Socials />}
             {<Footer />}
 
 
