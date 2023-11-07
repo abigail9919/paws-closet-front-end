@@ -5,53 +5,34 @@ import Footer from '../components/Footer/Footer';
 import Button from '../components/Button/Button';
 
 
-{/* <Alert variant="info">A very important message for you!</Alert> */}
+{/* <Alert variant="info">A very important message for you!</Alert> */ }
 
 function Home() {
     return (
-        <div>
+        <div className='rvt-bg-orange-000'>
             {<Header />}
 
-            <article>
+            <div className='rvt-container-xl'>
+                <div className='rvt-container-sm'>
+                    <h1 className='rvt-ts-xxl'>
+                        Welcome to Higher Attire
+                    </h1>
+
+                    <p className='rvt-ts-lg'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam, diam nulla sed posuere. Adipiscing pulvinar integer nulla amet mattis odio
+                        gravida turpis. Duis pulvinar integer pellentesque cursus.
+                    </p>
 
 
-                <div className="word-content">
-                <div className = "breadcrumbs">
-                    <a href="#">Home</a> / 
-                    <a href="#">Advocacy & Resources</a> /
-                    <a href="#">Food and Clothing Services</a>
-                    <br />
-                    <div className="paws-title">PAWS' PANTRY</div>
+                    <div className="rvt-hero__actions">
+                        <a className="rvt-cta rvt-cta--button" href="#0">Login</a>
+                    </div>
                 </div>
-
-                <h1>Welcome to the Pantry</h1>
-                <h3>How to shop for free food and personal hygiene products</h3>
-
-                <h4>Here’s what you need to know to make your visit to the pantry a breeze:</h4>
-                <ul>
-                    <li>Clients experiencing food insecurity can physically shop in the pantry, as you would in a store, for your own items. There is a check-in and check-out process, and a limit system is in place to allow for everyone to get what they need.</li>
-                    <li>Appointments are required to be made 24 hours in advance. Each appointment will allow 15 minutes for shopping.</li>
-                    <li><i>Every effort will be made to provide appointments for those with food insecurity. If you are unable to make an appointment, please email jagsfood@iu.edu and a one-time emergency pre-packaged food bag will be provided.</i></li>
-                    <li>Every client, even if it is not your first time visiting the pantry, will need to fill out an intake form for the 2022-23 school year.</li>
-                </ul>
-                </div>
-            </article>
-
-
-            <div className="button-wrapper">
-                {/* <label for="submit-button">Schedule Now</label><br /> */}
-                {<Button title = "Get Started" location="/Search" />}
             </div>
 
-            <div className="questions-wrapper">
-                <h3>Questions?</h3>
-                <h4>Contact us at {<Button title="jagsfood@iupui.edu" location="#"/>} or stop by the pantry to speak to a Paws’ Pantry team member.</h4>
-            </div>
+            <br />
+            <br />
 
-            <div className = "bottom-content">
-                <h3>Support Paws' Pantry Today</h3>
-                <button>GIVE NOW</button>
-            </div>
             {<Footer />}
         </div>
     );
